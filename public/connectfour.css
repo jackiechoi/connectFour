@@ -17,15 +17,23 @@ h1 {
   margin:0 auto;
 	background:url("http://img.sr/images/2014/01/28/base.png") 0 0 no-repeat;
 	position: relative;
+  border-style: solid;
 }
 .disc{
-
+  position:absolute;
+  z-index:-1;
+  top:-55px;
+  left:14px;
+  width:46px;
+  height:46px;
+  border-radius:46px;
+  transition:all .3s;
 }
 
 .disc.red{
-	
+  background:#d96666;
 }
 
 .disc.yellow{
-
+  background:#ffeb79;
 }
