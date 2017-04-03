@@ -24,6 +24,11 @@ var userSchema = new mongoose.Schema({
 //create a user model
 var userModel = mongoose.model("User", userSchema);
 
+app.get('/', function(req, res){
+	res.render('connectfour');
+})
+
+
 app.listen(process.env.PORT || 3001, function(){
 	console.log("connectfour working!")
 })
