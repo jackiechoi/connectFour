@@ -1,0 +1,31 @@
+body {
+	background: #232323;
+}
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+}
+#game-base {
+	width: 640px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+#game-table {
+	width:434px;
+  height:374px;
+  margin:0 auto;
+	background:url("http://img.sr/images/2014/01/28/base.png") 0 0 no-repeat;
+	position: relative;
+}
+.disc{
+
+}
+
+.disc.red{
+	
+}
+
+.disc.yellow{
+
+}
